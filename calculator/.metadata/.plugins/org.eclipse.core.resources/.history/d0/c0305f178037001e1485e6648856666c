@@ -1,0 +1,19 @@
+package calculator;
+import java.util.Scanner;
+public class Calculator {
+public static void main(String[] args) {
+	Scanner scan =new Scanner(System.in);
+	System.out.println(" enter the speed and time to calculate distance");
+	double speed=scan.nextDouble();
+	double time=scan.nextDouble();
+	JouneyCalculator  journeycalculator =new JourneyCalculator();
+	double distance=journeycalculator.calculateDistance(speed,time);
+	System.out.println(distance);
+	
+
+	
+	
+
+	}
+
+}

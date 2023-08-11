@@ -1,0 +1,10 @@
+package galactic;
+
+public class Galactic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
